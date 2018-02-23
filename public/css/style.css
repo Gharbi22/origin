@@ -10,10 +10,13 @@ li {
     border: 2px solid black;
     float: left;
     display: inline;
-    padding: 5%;
+    padding: 1%;
     font-size: 20px;
     text-align: center;
+    position: static;
+    margin-left: 60px;
 }
+
 nav{
     overflow: hidden;
 }
