@@ -1,5 +1,6 @@
 section {
     padding: 50px;
+    border-bottom-color: black;
 
 }
 section:h4:first-child {
