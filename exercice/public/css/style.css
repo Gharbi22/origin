@@ -2,3 +2,6 @@ section {
     padding: 50px
 
 }
+section:first-child {
+    color: blue
+}
