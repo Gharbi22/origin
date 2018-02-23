@@ -1,7 +1,7 @@
 section {
-    padding: 50px
+    padding: 50px;
 
 }
-section:first-child {
-    color: blue
+section>h4:first-child {
+    color: blue;
 }
