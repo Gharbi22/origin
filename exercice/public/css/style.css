@@ -1,9 +1,30 @@
 section {
     padding: 50px;
-    border-bottom-color: black;
-    border-bottom: 1px;
+    border-bottom: 1px solid black;
+    }
+
+    section:first-child h4{
+    color: blue;
+}
+section:nth-child(2){
+    border-bottom: 5px solid red;
+}
+section:nth-child(3) h3, section:nth-child(3) ul{
+
+color: red;
+}
+section:nth-child(4) li>a{
+    font-size: 25px;
+}
+section:nth-child(5) h3+span{
+    color: blue;
+}
+[alt="la-tartine"] {
+    border-radius: 100%;
+    border: 10px solid black; 
 
 }
-section:h4:first-child {
-    color: blue;
+section:last-child p:hover{
+    
+    color:green;
 }

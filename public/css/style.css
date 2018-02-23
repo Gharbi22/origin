@@ -1,0 +1,21 @@
+header {
+    color: black;
+    background-image: url(/home/coding/www/dev/portfolio/public/img/23949406_569166796794027_671311383_o.jpg);
+    border: 10px solid black;
+}
+a {
+    border: 2px solid black;
+    width: 300px;
+    width: auto;
+    float: left;
+    display: inline-block;
+}
+li {
+    overflow: hidden;
+}
+h1{
+    
+}
+body {
+    
+}
