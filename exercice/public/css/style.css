@@ -2,6 +2,6 @@ section {
     padding: 50px;
 
 }
-section>h4:first-child {
+section:h4:first-child {
     color: blue;
 }
