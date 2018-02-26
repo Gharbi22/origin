@@ -1,0 +1,27 @@
+body {
+    background-color: burlywood;
+}
+section {
+    background-color: orangered;
+    margin: 5px;
+    padding: 50px;
+    justify-content: center;
+    
+}
+ .containers {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
+section:first-child {
+    flex: 1;
+}
+section:nth-child(2) {
+    flex: 2;
+}
+section:nth-child(3) {
+    flex: 1;
+}
+section:last-child {
+    flex: 2;
+}
