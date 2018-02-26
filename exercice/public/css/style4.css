@@ -1,18 +1,24 @@
 body {
     background-color: burlywood;
+} 
+.super-containers {
+    display: flex;
+    align-items: center;
+    height: 100vh;  
+}
+.containers{
+    display: flex;
 }
 section {
+    display: flex;
+    align-items: center;
     background-color: orangered;
     margin: 5px;
     padding: 50px;
     justify-content: center;
-    
+    flex-basis: auto;
 }
- .containers {
-    display: flex;
-    align-items: center;
-    height: 100vh;
-}
+
 section:first-child {
     flex: 1;
 }
