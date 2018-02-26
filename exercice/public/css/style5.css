@@ -1,0 +1,15 @@
+
+div {
+    display: flex;
+    justify-content: space-around;
+}
+p {
+    text-align: center; 
+}
+section{
+    margin: 2px;
+    width: 100%;
+    background-color: chocolate ;
+}
+
+
