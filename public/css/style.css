@@ -8,7 +8,6 @@ header>h1, h2 {
 }
 li {
     border: 2px solid black;
-    float: left;
     display: inline;
     padding: 1%;
     font-size: 20px;
@@ -17,9 +16,7 @@ li {
     margin-left: 60px;
 }
 
-nav{
-    overflow: hidden;
-}
+
 section{
     border: 7px solid black;
     background-color: grey;
