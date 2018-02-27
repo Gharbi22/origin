@@ -1,8 +1,14 @@
-li {
-    border: 2px solid black;
-    display: inline;
-    padding: 1%;
-    font-size: 20px;
-    margin-left: 60px;
-    
+body{
+    display: flex;
+    justify-content: center; 
 }
+nav {
+    background-color: aliceblue;
+}
+li {
+   border: 1px solid black;
+   margin: 5px;
+   padding: 5px;
+   display: inline;   
+}
+
