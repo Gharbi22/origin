@@ -1,4 +1,8 @@
+body{
+    
+}
 header {
+    display: flex;
     color: white;
     background-image: url(/home/coding/www/dev/portfolio/public/img/23949406_569166796794027_671311383_o.jpg);
     border: 10px solid black;
@@ -14,6 +18,7 @@ li {
     text-align: center;
     position: static;
     margin-left: 60px;
+    justify-content: center;
 }
 
 
