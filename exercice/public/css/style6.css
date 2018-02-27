@@ -13,7 +13,6 @@ header,footer {
 }
 .container {
     display: flex;
-    flex-direction: row;
     flex: 10;
     margin: 5px;
     
@@ -38,4 +37,12 @@ aside {
     flex: 1;
     margin: 1px;
     border-radius: 10px;
+}
+@media screen and (max-width: 600px){
+    .container {
+        flex-flow: column;
+    }
+    article {
+        order: 1;
+    }
 }
