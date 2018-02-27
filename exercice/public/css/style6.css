@@ -1,0 +1,41 @@
+body {
+    display: flex;
+    flex-flow: column;
+    height: 100vh;
+    margin: 0;
+}
+header,footer {
+    background-color: blue;
+    flex: 1;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+.container {
+    display: flex;
+    flex-direction: row;
+    flex: 10;
+    margin: 5px;
+    
+}
+article {
+    background-color: cadetblue;
+    order: 2;
+    flex: 4;
+    margin: 1px;
+    border-radius: 10px;
+}
+nav {
+    background-color: orangered;
+    order: 1;
+    flex: 1;
+    margin: 1px;
+    border-radius: 10px;
+}
+aside {
+    background-color: orangered;
+    order: 3;
+    flex: 1;
+    margin: 1px;
+    border-radius: 10px;
+}
