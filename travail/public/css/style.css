@@ -1,48 +1,74 @@
-
+body {
+    padding: 0px;
+    margin: 0px;
+}
 header {
+    display: flex;
     color: white;
     background-image:url(/home/coding/www/dev/portfolio/travail/public/img/devin-walker-homepage.jpg);
-    border: 5px solid black;
     height: 100vh;
-  
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    background-color: black;
+    position: fixed;
+    width: 100%;
 }
 img {
     block-size: 50px;
     padding: 1%;
+} 
+.menu{
+    position:absolute;
+    margin: 20px;
+    left: 45%;
+    width: 20px;     
+} 
+/** Texte en milieu de l'image **/
+.banner { 
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    text-align: center; 
 }
-header>h1, h2 {
-    text-align: center;
-    
+#menu{
+    display: inline-flex;
+    justify-content: space-between;
 }
-li {
+#menu, #icones{
     padding: 1%;
     font-size: 20px;
-    text-align: right;
-    position: static;
     list-style: none;
-
 }
-li a {
-    padding:2%;
+#menu>li>a, #icones>li>a {
+    margin:20px;
     color: white;
 }
-
+#menu>li a:hover {
+        background-color: gainsboro;
+        color: black;
+}
 section{
-    border: 2px solid #333;
-    background-color: #1abc9c;
     height: 300px;
 }
-section>h1 {
+
+section h1 {
     padding: 5px;
     border: 2px solid black;
     width: 30%;
-    margin-left: 10%;
+    margin-left: 1px;
 }
 footer {
     background-color: black;
+    width: 100%;
+}
+
+@media all and (max-height: 120px) {
+    nav {
+        background-color: black;
+        
+    }
 }
