@@ -1,0 +1,48 @@
+
+header {
+    color: white;
+    background-image:url(/home/coding/www/dev/portfolio/travail/public/img/devin-walker-homepage.jpg);
+    border: 5px solid black;
+    height: 100vh;
+  
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+}
+img {
+    block-size: 50px;
+    padding: 1%;
+}
+header>h1, h2 {
+    text-align: center;
+    
+}
+li {
+    padding: 1%;
+    font-size: 20px;
+    text-align: right;
+    position: static;
+    list-style: none;
+
+}
+li a {
+    padding:2%;
+    color: white;
+}
+
+section{
+    border: 2px solid #333;
+    background-color: #1abc9c;
+    height: 300px;
+}
+section>h1 {
+    padding: 5px;
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 10%;
+}
+footer {
+    background-color: black;
+}
