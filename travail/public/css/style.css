@@ -21,7 +21,7 @@ img {
     block-size: 50px;
     padding: 1%;
 } 
-.menu{
+#menu{
     position:absolute;
     margin: 20px;
     left: 45%;

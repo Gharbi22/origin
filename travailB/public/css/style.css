@@ -1,0 +1,102 @@
+body{
+    margin:0;
+    font-family: Helvetica, Arial, sans-serif;
+   
+}
+header {
+    background-image: url(/home/coding/www/dev/portfolio/travail/public/img/devin-walker-homepage.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100vh;
+   
+
+}
+#body{
+    
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.411);
+    height: 70px;
+    width: 100%;
+ 
+}
+
+#menu{
+    display:flex;
+    list-style: none;
+
+
+}
+#menu
+    li {
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    }
+#menu
+    li
+        a{
+            color: white;
+        }
+#icones {
+    display: flex;
+    color: white;
+    list-style: none;
+    text-align: right;
+}
+#icones
+    li{
+    margin: 10px;
+    padding: 10px;
+    font-size: 20px;
+    }
+a:hover{
+    background-color: white;
+    color:black;
+}
+#banner{
+    color: white;
+    margin-top: 20%;
+    text-align: center;
+}
+.aboutme{
+    color: rgb(97, 93, 93);
+    text-align: center;
+    margin-top: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: 2em;
+    font-family: "brandon-grotesque";
+    line-height: 1.5em;
+    height: 70vh;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.projets{
+    height: 120vh;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+.projets
+    img{
+        width: 33%;
+        padding: 10px;       
+}
+.text{
+    padding-bottom:30px;
+    }
+.services{
+    background-image: url(/home/coding/www/dev/portfolio/travail/public/img/home-services.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    }
+    .text2 {
+        color: white;
+        text-align: center;
+       padding-top: 10%;
+    }
