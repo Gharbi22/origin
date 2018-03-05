@@ -11,10 +11,8 @@ header {
    
 
 }
-#body{
-    
-}
-nav{
+/*-->
+ nav{
     display: flex;
     justify-content: space-between;
     background-color: rgba(255, 255, 255, 0.411);
@@ -39,7 +37,10 @@ nav{
     li
         a{
             color: white;
-        }
+        }*/
+.active{
+    color: white;
+}
 #icones {
     display: flex;
     color: white;
@@ -55,7 +56,7 @@ nav{
 a:hover{
     background-color: white;
     color:black;
-}
+} 
 #banner{
     color: white;
     margin-top: 20%;
@@ -65,25 +66,25 @@ a:hover{
     color: rgb(97, 93, 93);
     text-align: center;
     margin-top: 10%;
-    margin-left: 5%;
-    margin-right: 5%;
     font-size: 2em;
     font-family: "brandon-grotesque";
     line-height: 1.5em;
     height: 70vh;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
+
 .projets{
-    height: 120vh;
+    height: 140vh;
     justify-content: center;
-    margin-left: 2%;
-    margin-right: 2%;
+    margin-left: 10%;
+    margin-right: 10%;
 }
 .projets
     img{
         width: 33%;
-        padding: 10px;       
+        padding: 10px;
+
 }
 .text{
     padding-bottom:30px;
